@@ -1,0 +1,11 @@
+include(unixlike-gcc-debug)
+
+[settings]
+
+[options]
+
+[build_requires]
+
+[env]
+CMAKE_C_COMPILER_LAUNCHER=ccache
+CMAKE_CXX_COMPILER_LAUNCHER=ccache

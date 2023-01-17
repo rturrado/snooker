@@ -1,0 +1,10 @@
+include(conf-unixlike-common)
+
+[settings]
+build_type=Debug
+
+[options]
+
+[build_requires]
+
+[env]

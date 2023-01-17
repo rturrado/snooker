@@ -1,0 +1,12 @@
+include(unixlike-gcc-debug-asan)
+include(unixlike-gcc-debug-ccache)
+include(unixlike-gcc-debug-coverage)
+include(unixlike-gcc-debug-tests)
+
+[settings]
+
+[options]
+
+[build_requires]
+
+[env]

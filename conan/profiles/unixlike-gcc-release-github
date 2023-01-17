@@ -1,0 +1,11 @@
+include(unixlike-gcc-release-benchmarks)
+include(unixlike-gcc-release-ccache)
+include(unixlike-gcc-release-tests)
+
+[settings]
+
+[options]
+
+[build_requires]
+
+[env]

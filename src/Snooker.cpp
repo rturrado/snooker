@@ -119,7 +119,7 @@ void display()
   glutSwapBuffers();
 }
 
-void keyboard(unsigned char key, int x, int y)
+void keyboard(unsigned char key, int, int)
 {
   static unsigned int axis = 0;
 
@@ -265,7 +265,7 @@ void moveBallCircularNoFriction(unsigned int index)
   GLdouble newX;
   GLdouble newZ;
   
-  for (int angle = 0; ; angle++%360)
+  for (int angle = 0; ; angle = ((angle+1) % 360))
   {
     newX = oldX - aRadius + aRadius * cos(angle*pi/180);
     newZ = oldZ + aRadius * sin(angle*pi/180);

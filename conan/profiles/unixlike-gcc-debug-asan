@@ -1,0 +1,10 @@
+include(unixlike-gcc-debug)
+
+[settings]
+
+[options]
+
+[build_requires]
+
+[env]
+ASAN_ENABLED=True

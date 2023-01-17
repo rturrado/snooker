@@ -1,0 +1,10 @@
+include(unixlike-gcc-release)
+
+[settings]
+
+[options]
+
+[build_requires]
+
+[env]
+SNOOKER_BUILD_BENCHMARKS=True
